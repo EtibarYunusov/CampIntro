@@ -6,6 +6,11 @@ namespace Methods
     {
         static void Main(string[] args)
         {
+            DateTime date = DateTime.Now.AddMonths(-5);
+            date = date.AddDays(-14);
+            int a = 204164396;
+            Convert.ToInt64(a);
+
             Product product = new Product();
             product.Id = 1;
             product.ProductName = "Apple";
